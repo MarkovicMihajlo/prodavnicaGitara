@@ -1,0 +1,167 @@
+:root {
+    --button: #FB8500;
+    --yellow: #FFB703;
+    --dark-blue: #023047;
+    --white: #FFF;
+    --black: #000;
+    --button-hover: #bf6602;
+    --menu-color: #1B1B1B;
+}
+
+header {
+    background-color: var(--menu-color);
+}
+
+nav {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .positioning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navigation {
+    float: right;
+}
+
+nav .navigation ul {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav .navigation ul li {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    align-self: center;
+    transition: 0.3s;
+}
+
+nav .navigation ul li .navLinks {
+    color: var(--white);
+    text-decoration: none   ;
+}
+
+nav .navigation ul li .navLinks:hover {
+    color: var(--yellow);
+}
+
+/*Hamburger Menu*/
+
+.hamburger-menu {
+    display: none;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    nav {
+        padding: 20px 30px; 
+    }
+
+    nav .navigation ul {
+        gap: 30px;
+    }
+
+    nav .navigation ul li {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .menuBtn a {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 20px 30px; 
+    }
+
+    /* nav .logo a img {
+        width: 150px;
+    } */
+
+    nav .navigation ul {
+        display: none;
+        gap: 20px;
+    }
+
+    nav .navigation ul li {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .menuBtn a {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .menu {
+        transform: translateY(-100%);
+    }
+
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--menu-color);
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        padding: 20px 0px;
+        animation: slideDown 0.5s ease forwards
+    }
+
+    .menu.active li {
+        text-align: center;
+        opacity: 0;
+        animation: fadeIn 0.5s ease forwards;
+    }
+}
+
+/* Admin navigation */
+
+.menu li img {
+    margin-right: 15px;
+}

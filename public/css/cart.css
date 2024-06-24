@@ -1,0 +1,36 @@
+:root {
+    --button: #FB8500;
+    --yellow: #FFB703;
+    --dark-blue: #023047;
+    --white: #FFF;
+    --black: #000;
+    --button-hover: #bf6602;
+    --menu-color: #1B1B1B;
+}
+
+.position{
+    margin: 30px auto;
+    background-color: var(--menu-color);
+    border-radius: 10px;
+    padding: 30px 60px;
+
+}
+
+.position > h3{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: var(--white);
+}
+
+.cart-box{
+    grid-template-columns: repeat(6, 1fr) !important;
+    
+}
+
+.aktivnosti{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    row-gap: 20px;
+}

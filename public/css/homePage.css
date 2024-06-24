@@ -1,0 +1,121 @@
+:root {
+    --button: #FB8500;
+    --yellow: #FFB703;
+    --dark-blue: #023047;
+    --white: #FFF;
+    --black: #000;
+    --button-hover: #bf6602;
+    --menu-color: #1B1B1B;
+}
+
+.hero {
+    background-image: url(../images/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.hero .container h1 {
+    width: 547px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.slider-section h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;  
+    text-transform: uppercase;
+}
+
+.slider-section {
+    background-color: var(--menu-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 70px;
+    margin-top: 42px;
+}
+  
+.slider {
+    display: flex;
+    width: calc(100% + 50px); 
+    animation: slide-animation 10s linear infinite; 
+}
+  
+.slide {
+    flex: 0 0 calc((100% - 100px) / 3); 
+    box-sizing: border-box;
+    margin-right: 50px; 
+    overflow: hidden;
+}
+
+.slide img{
+    width: 343px;
+    height: 427px;
+}
+  
+.slide:last-child {
+    margin-right: 0; 
+}
+
+@media (max-width: 768px) {
+    .slide {
+      flex: 0 0 calc((100% - 50px)); 
+      margin-right: 0; 
+    }
+}
+  
+@keyframes slide-animation {
+    0% { 
+        transform: translateX(0); 
+    }
+    100% { 
+        transform: translateX(calc(-100% - 50px)); 
+    } 
+}
+
+.see-our-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 1340px;
+    margin-bottom: 40px;
+}
+
+.productBtn {
+    padding: 10px 20px;
+}
+
+.productBtn a {
+    display: flex;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    transition: 0.3s;
+}
+
+.productBtn:hover {
+    background-color: var(--button-hover);
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --button: #FB8500;
+    --yellow: #FFB703;
+    --dark-blue: #023047;
+    --white: #FFF;
+    --black: #000;
+    --button-hover: #bf6602;
+    --menu-color: #1B1B1B;
+}
+
+.menuBtn, .productBtn, .active {
+    background-color: var(--button);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+}
+
+button a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.menuBtn:hover, .productBtn:hover {
+    background-color: var(--button-hover);
+}
+
+h1{
+    color: var(--white);
+}
+
+.container {
+    width: 1340px;
+}
+
+.highlighted {
+    color: var(--yellow);
+}
+

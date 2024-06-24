@@ -1,0 +1,91 @@
+:root {
+    --button: #FB8500;
+    --yellow: #FFB703;
+    --dark-blue: #023047;
+    --white: #FFF;
+    --black: #000;
+    --button-hover: #bf6602;
+    --menu-color: #1B1B1B;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--menu-color);
+    
+    padding: 20px 0px;
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form > form{
+    width: 600px;
+    text-align: center;
+}
+
+.form > h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: var(--yellow);
+}
+
+form > .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field{
+    width: 48.5%;
+}
+
+.field .item{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid var(--button);
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 16px 0px;
+    color: var(--white);
+}
+
+.field .item::placeholder{
+    color: var(--yellow);
+    opacity: 80%;
+}
+.field .error-txt{
+    font-size: 14px;
+    color: red;
+    text-align: left;
+    margin: 0px 0px 10px;
+    display: none;
+}
+
+form .textarea-field .item{
+    resize: none;
+}
+
+form button{
+    cursor: pointer;
+}
+
+.change{
+    color: var(--white);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: var(--button-hover);
+}
+

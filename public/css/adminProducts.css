@@ -1,0 +1,141 @@
+:root {
+    --button: #FB8500;
+    --yellow: #FFB703;
+    --dark-blue: #023047;
+    --white: #FFF;
+    --black: #000;
+    --button-hover: #bf6602;
+    --menu-color: #1B1B1B;
+}
+
+.container-for-btn{
+    width: 1340px;
+    margin: 40px auto;
+    background-color: var(--menu-color);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.add-button {
+    text-transform: uppercase;
+}
+
+.add-button:hover {
+    background-color: var(--button-hover);
+}
+
+.edit {
+    background-color: var(--button);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    width: 150px;
+}
+
+.edit:hover {
+    background-color: var(--button-hover);
+}
+
+.delete {
+    background-color: #B3202B !important;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+}
+
+.delete:hover {
+    background-color: #801d25 !important;
+}
+
+.container-input{
+    width: 1340px;
+    margin: 40px auto;
+    background-color: var(--menu-color);
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.admin-product-form-container form{
+    width: 500px;
+    margin: 0px auto;
+    padding: 10px 20px;
+    
+}
+
+.admin-product-form-container form h3{
+    text-transform: uppercase;
+    color: var(--yellow);
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.admin-product-form-container form .box{
+    width: 460px;
+    height: 60px;
+    border: 1px solid var(--button);
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.admin-product-form-container form .box::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+.add-button{
+    width: 460px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--button);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.phone-box{
+    background-color: var(--menu-color);
+    width: 1340px;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 30px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.phone-header{
+    color: var(--yellow);
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.dinamicItem{
+    color: var(--white);
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.aktivnosti{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+}
+
+option {
+    background-color: #1B1B1B;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}

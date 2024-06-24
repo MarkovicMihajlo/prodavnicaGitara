@@ -1,0 +1,38 @@
+:root {
+    --button: #FB8500;
+    --yellow: #FFB703;
+    --dark-blue: #023047;
+    --white: #FFF;
+    --black: #000;
+    --button-hover: #bf6602;
+    --menu-color: #1B1B1B;
+}
+
+.columnPositioning {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 10px;
+}
+
+.heading {
+    align-self: center;
+    width: 60%;
+}
+
+.heading h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.profileInfo {
+    background-color: var(--menu-color);
+    border-radius: 10px;
+    padding: 30px 10px;
+    width: 40%;
+    color: var(--white);
+    text-align: center;
+    font-size: 38px;
+}
