@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="public/css/adminProducts.css">
     <link rel="stylesheet" type="text/css" href="public/css/productsUser.css">
     <link rel="stylesheet" type="text/css" href="public/css/cart.css">
-    <title>Mobile Store</title>
+    <title>Guitar Store</title>
 </head>
 <body>
     <?php
@@ -45,11 +45,11 @@
             <h3 class="dinamicItem"><?php echo $stavka['kolicina']?></h3>
         </div>
         <div class="phoneId">
-            <h3 class="phone-header">Phone Name</h3>
+            <h3 class="phone-header">Guitar Name</h3>
             <h3 class="dinamicItem"><?php echo $stavka['ime']?></h3>
         </div>
         <div class="phoneId">
-            <h3 class="phone-header">Phone price</h3>
+            <h3 class="phone-header">Guitar price</h3>
             <h3 class="dinamicItem"><?php echo $stavka['cena']?>€</h3>
         </div>
         <div class="phoneId">

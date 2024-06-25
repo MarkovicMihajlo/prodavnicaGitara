@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../public/css/footer.css">
     <link rel="stylesheet" type="text/css" href="../public/css/adminPanel.css">
     <link rel="stylesheet" type="text/css" href="../public/css/adminProducts.css">
-    <title>Mobile Store</title>
+    <title>Guitar Store</title>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
     ?>
 
     <div class="container-for-btn">
-        <button class="menuBtn"><a href="addProduct.php">Add new phone</a></button>
+        <button class="menuBtn"><a href="addProduct.php">Add new guitar</a></button>
     </div>
 
     <?php
@@ -35,19 +35,19 @@
 
     <div class="phone-box">
         <div class="phoneId">
-            <h3 class="phone-header">Phone ID</h3>
+            <h3 class="phone-header">Guitar ID</h3>
             <h3 class="dinamicItem"><?php echo $gitara['gitara_id']?></h3>
         </div>
         <div class="phoneName">
-            <h3 class="phone-header">Phone Name</h3>
+            <h3 class="phone-header">Guitar Name</h3>
             <h3 class="dinamicItem"><?php echo $gitara['ime']?></h3>
         </div>
         <div class="phoneId">
-            <h3 class="phone-header">Phone Price</h3>
+            <h3 class="phone-header">Guitar Price</h3>
             <h3 class="dinamicItem"><?php echo $gitara['cena']?>€</h3>
         </div>
         <div class="phoneId">
-            <h3 class="phone-header">Producer Name</h3>
+            <h3 class="phone-header">Guitar type</h3>
             <h3 class="dinamicItem"><?php echo $gitara['tip']?></h3>
         </div>
         

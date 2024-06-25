@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="public/css/adminPanel.css">
     <link rel="stylesheet" type="text/css" href="public/css/adminProducts.css">
     <link rel="stylesheet" type="text/css" href="public/css/productsUser.css">
-    <title>Mobile Store</title>
+    <title>Guitar Store</title>
 </head>
 <body>
     <?php
@@ -31,24 +31,24 @@
 
     <div class="phone-box">
         <div class="phoneId">
-            <h3 class="phone-header">Phone ID</h3>
+            <h3 class="phone-header">Guitar ID</h3>
             <h3 class="dinamicItem"><?php echo $gitara['gitara_id']?></h3>
         </div>
         <div class="phoneName">
-            <h3 class="phone-header">Phone Name</h3>
+            <h3 class="phone-header">Guitar Name</h3>
             <h3 class="dinamicItem"><?php echo $gitara['ime']?></h3>
         </div>
         <div class="phoneId">
-            <h3 class="phone-header">Phone Price</h3>
+            <h3 class="phone-header">Guitar Price</h3>
             <h3 class="dinamicItem"><?php echo $gitara['cena']?>€</h3>
         </div>
         <div class="phoneId">
-            <h3 class="phone-header">Producer Name</h3>
+            <h3 class="phone-header">Guitar type</h3>
             <h3 class="dinamicItem"><?php echo $gitara['tip']?></h3>
         </div>
         
         <form method="POST" action="insertCart.php">
-            <input type="number" name="kolicina" placeholder="Enter number of phones" class="field">
+            <input type="number" name="kolicina" placeholder="Enter number of guitars" class="field">
             <input type="number" hidden name="idUser" value="<?php echo $idUser?>">
             <input type="number" hidden name="idGitara" value="<?php echo $gitara['gitara_id']?>">
             <button type="submit" class="menuBtn" style=" color: white; width:165px; text-transform:uppercase; font-size: 18px; font-weight: 700;">Add to cart</button>

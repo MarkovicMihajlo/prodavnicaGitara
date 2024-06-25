@@ -21,12 +21,12 @@
 
     <div class="hero">
         <div class="container">
-            <h1><span class="highlighted">WELCOME</span> TO THE BEST MOBILE PHONE STORE</h1>
+            <h1><span class="highlighted">WELCOME</span> TO THE BEST GUITAR STORE</h1>
         </div>
     </div>
 
     <div class="slider-section">
-        <h2>This is the <span class="highlighted">right</span> time to buy a <span class="highlighted">mobile phone</span></h2>
+        <h2>This is the <span class="highlighted">right</span> time to buy a <span class="highlighted">guitar</span></h2>
 
         <div class="slider-container">
             <div class="slider">

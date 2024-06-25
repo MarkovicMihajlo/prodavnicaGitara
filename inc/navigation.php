@@ -2,7 +2,7 @@
     <nav>
         <div class="container positioning">
             <div class="logo">
-                <a href="index.php"><img src="public/images/logo.png" alt="LOGO"></a>
+                <a href="index.php"><img src="public/images/gitaraShopstore.png" alt="LOGO"></a>
             </div>
             <div class="navigation">
                 <div class="hamburger-menu">
