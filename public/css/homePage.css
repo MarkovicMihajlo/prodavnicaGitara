@@ -9,7 +9,7 @@
 }
 
 .hero {
-    background-image: url(../images/hero-image.jpg);
+    background-image:linear-gradient( rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(../images/hero-image2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

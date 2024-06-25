@@ -1,11 +1,11 @@
 :root {
-    --button: #FB8500;
-    --yellow: #FFB703;
-    --dark-blue: #023047;
+    --button: #faa307;
+    --yellow: #ffba08 ;
+    --dark-blue: #f72585;
     --white: #FFF;
     --black: #000;
-    --button-hover: #bf6602;
-    --menu-color: #1B1B1B;
+    --button-hover: #f48c06;
+    --menu-color: #a98467;
 }
 
 .position{
