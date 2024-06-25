@@ -1,7 +1,7 @@
 <footer>
     <div class="footerContainer">
         <div class="footerLogo">
-            <a href="index.php"><img src="../public/images/logo.png" alt="LOGO"></a>
+            <a href="index.php"><img src="../public/images/footerlogo.png" alt="LOGO"></a>
         </div>
         <div class="footerNav">
             <h3>Pages</h3>

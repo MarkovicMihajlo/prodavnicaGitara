@@ -9,7 +9,7 @@
     <nav>
         <div class="container positioning">
             <div class="logo">
-                <a href="userPanel.php"><img src="public/images/logo.png" alt="LOGO"></a>
+                <a href="userPanel.php"><img src="public/images/gitaraShopstore.png" alt="LOGO"></a>
             </div>
             <div class="navigation">
                 <div class="hamburger-menu">

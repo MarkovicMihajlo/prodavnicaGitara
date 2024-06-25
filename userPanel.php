@@ -30,13 +30,13 @@
 
         <div class="slider-container">
             <div class="slider">
-                <div class="slide"><img src="public/images/product-img-1.jpg" alt="Product1"></div>
-                <div class="slide"><img src="public/images/product-img-2.jpg" alt="Product2"></div>
-                <div class="slide"><img src="public/images/product-img-3.jpg" alt="Product3"></div>
-                <div class="slide"><img src="public/images/product-img-4.jpg" alt="Product4"></div>
-                <div class="slide"><img src="public/images/product-img-5.jpg" alt="Product5"></div>
-                <div class="slide"><img src="public/images/product-img-6.jpg" alt="Product6"></div>
-                <div class="slide"><img src="public/images/product-img-7.jpg" alt="Product7"></div>
+                <div class="slide"><img src="public/images/product-img-1.png" alt="Product1"></div>
+                <div class="slide"><img src="public/images/product-img-2.png" alt="Product2"></div>
+                <div class="slide"><img src="public/images/product-img-3.png" alt="Product3"></div>
+                <div class="slide"><img src="public/images/product-img-4.png" alt="Product4"></div>
+                <div class="slide"><img src="public/images/product-img-5.png" alt="Product5"></div>
+                <div class="slide"><img src="public/images/product-img-6.png" alt="Product6"></div>
+                <div class="slide"><img src="public/images/product-img-7.png" alt="Product7"></div>
             </div>
         </div>
 
