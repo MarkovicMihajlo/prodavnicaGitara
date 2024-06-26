@@ -1,13 +1,13 @@
 const form = document.querySelector('form');
 const fullName = document.getElementById("name");
 const email = document.getElementById("email");
-const phone = document.getElementById("phone");
+const guitar = document.getElementById("guitar");
 const subject = document.getElementById("subject");
 const mess = document.getElementById("message");
 
 function sendEmail(){
 
-    const bodyMessage = `Full Name: ${fullName.value}<br> E-mail: ${email.value}<br> Phone: ${phone.value}<br> Message: ${mess.value}`;
+    const bodyMessage = `Full Name: ${fullName.value}<br> E-mail: ${email.value}<br> Guitar: ${guitar.value}<br> Message: ${mess.value}`;
 
     Email.send({
         Host : "smtp.elasticemail.com",

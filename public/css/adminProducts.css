@@ -5,7 +5,7 @@
     --white: #FFF;
     --black: #000;
     --button-hover: #f48c06;
-    --menu-color: #a98467;
+    --menu-color: #363636;
 }
 
 .container-for-btn{
@@ -102,7 +102,7 @@
     cursor: pointer;
 }
 
-.phone-box{
+.guitar-box{
     background-color: var(--menu-color);
     width: 1340px;
     margin: 40px auto;
@@ -113,7 +113,7 @@
     align-items: center;
 }
 
-.phone-header{
+.guitar-header{
     color: var(--yellow);
     text-align: center;
     font-weight: 700;

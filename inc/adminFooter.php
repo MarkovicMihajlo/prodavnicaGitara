@@ -13,7 +13,7 @@
         <div class="information">
             <ul class="iconList">
                 <li><img src="../public/images/location-icon.svg" alt="Location Icon"> Danijelova 32 </li>
-                <li><img src="../public/images/phone-icon.svg" alt="Phone   Icon"> 064/1234567 </li>
+                <li><img src="../public/images/phone-icon.svg" alt="phone Icon"> 064/1234567 </li>
             </ul>
         </div>
     </div>

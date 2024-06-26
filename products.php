@@ -29,21 +29,21 @@
         foreach($gitare as $gitara){
     ?>
 
-    <div class="phone-box">
-        <div class="phoneId">
-            <h3 class="phone-header">Guitar ID</h3>
+    <div class="guitar-box">
+        <div class="guitarId">
+            <h3 class="guitar-header">Guitar ID</h3>
             <h3 class="dinamicItem"><?php echo $gitara['gitara_id']?></h3>
         </div>
-        <div class="phoneName">
-            <h3 class="phone-header">Guitar Name</h3>
+        <div class="guitarName">
+            <h3 class="guitar-header">Guitar Name</h3>
             <h3 class="dinamicItem"><?php echo $gitara['ime']?></h3>
         </div>
-        <div class="phoneId">
-            <h3 class="phone-header">Guitar Price</h3>
+        <div class="guitarId">
+            <h3 class="guitar-header">Guitar Price</h3>
             <h3 class="dinamicItem"><?php echo $gitara['cena']?>€</h3>
         </div>
-        <div class="phoneId">
-            <h3 class="phone-header">Guitar type</h3>
+        <div class="guitarId">
+            <h3 class="guitar-header">Guitar type</h3>
             <h3 class="dinamicItem"><?php echo $gitara['tip']?></h3>
         </div>
         

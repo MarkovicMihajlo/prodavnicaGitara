@@ -35,25 +35,25 @@
             $suma += $racun;
     ?>
 
-    <div class="phone-box cart-box">
-        <div class="phoneId">
-            <h3 class="phone-header">Cart ID</h3>
+    <div class="guitar-box cart-box">
+        <div class="guitarId">
+            <h3 class="guitar-header">Cart ID</h3>
             <h3 class="dinamicItem"><?php echo $stavka['korpa_id']?></h3>
         </div>
-        <div class="phoneName">
-            <h3 class="phone-header">Quantity</h3>
+        <div class="guitarName">
+            <h3 class="guitar-header">Quantity</h3>
             <h3 class="dinamicItem"><?php echo $stavka['kolicina']?></h3>
         </div>
-        <div class="phoneId">
-            <h3 class="phone-header">Guitar Name</h3>
+        <div class="guitarId">
+            <h3 class="guitar-header">Guitar Name</h3>
             <h3 class="dinamicItem"><?php echo $stavka['ime']?></h3>
         </div>
-        <div class="phoneId">
-            <h3 class="phone-header">Guitar price</h3>
+        <div class="guitarId">
+            <h3 class="guitar-header">Guitar price</h3>
             <h3 class="dinamicItem"><?php echo $stavka['cena']?>€</h3>
         </div>
-        <div class="phoneId">
-            <h3 class="phone-header">Price</h3>
+        <div class="guitarId">
+            <h3 class="guitar-header">Price</h3>
             <h3 class="dinamicItem"><?php echo $racun?>€</h3>
         </div>
         <div class="aktivnosti">
