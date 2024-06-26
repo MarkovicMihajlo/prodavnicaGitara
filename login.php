@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="public/images/android-chrome-512x512.png">
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
     <link rel="stylesheet" type="text/css" href="public/css/form.css">
-    <title>Mobile Shop</title>
+    <title>Guitar Store</title>
 </head>
 
 <body>

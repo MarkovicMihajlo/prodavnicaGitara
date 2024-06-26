@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="public/css/navigation.css">
     <link rel="stylesheet" type="text/css" href="public/css/footer.css">
 
-    <title>Mobile Shop</title>
+    <title>Guitar Store</title>
 </head>
 <body>
 

@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="../public/css/adminPanel.css">
     <link rel="stylesheet" type="text/css" href="../public/css/adminProducts.css">
     <link rel="stylesheet" type="text/css" href="../public/css/addProducts.css">
-    <title>Mobile Store</title>
+    <title>Guitar Store</title>
 </head>
 <body>
     <?php 
